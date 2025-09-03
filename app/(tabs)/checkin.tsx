@@ -138,7 +138,7 @@ export default function CheckInScreen() {
             </View>
             <View style={styles.scheduleInfo}>
               <ThemedText style={styles.scheduleTitle}>Muay Thai - Iniciante</ThemedText>
-              <ThemedText style={styles.scheduleInstructor}>Prof. Carlos Silva</ThemedText>
+              <ThemedText style={styles.scheduleInstructor}>Prof. Saitama</ThemedText>
             </View>
             <View style={styles.scheduleStatus}>
               <ThemedText style={styles.scheduleStatusText}>Disponível</ThemedText>
@@ -151,7 +151,7 @@ export default function CheckInScreen() {
             </View>
             <View style={styles.scheduleInfo}>
               <ThemedText style={styles.scheduleTitle}>Jiu-Jitsu - Intermediário</ThemedText>
-              <ThemedText style={styles.scheduleInstructor}>Prof. Carlos Silva</ThemedText>
+              <ThemedText style={styles.scheduleInstructor}>Prof. Saitama</ThemedText>
             </View>
             <View style={styles.scheduleStatus}>
               <ThemedText style={styles.scheduleStatusText}>Disponível</ThemedText>
@@ -164,7 +164,7 @@ export default function CheckInScreen() {
             </View>
             <View style={styles.scheduleInfo}>
               <ThemedText style={styles.scheduleTitle}>MMA - Avançado</ThemedText>
-              <ThemedText style={styles.scheduleInstructor}>Prof. Carlos Silva</ThemedText>
+              <ThemedText style={styles.scheduleInstructor}>Prof. Saitama</ThemedText>
             </View>
             <View style={styles.scheduleStatus}>
               <ThemedText style={styles.scheduleStatusText}>Disponível</ThemedText>

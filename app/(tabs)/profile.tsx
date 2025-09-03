@@ -7,13 +7,16 @@ import {
   Alert,
   Modal,
   TextInput,
-  Image
+  Image,
+  Dimensions
 } from 'react-native';
 import { router } from 'expo-router';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { useAuth } from '@/context/AuthContext';
 import { Student, Trainer } from '@/types';
+
+const { width } = Dimensions.get('window');
 
 export default function ProfileScreen() {
   const { user, logout } = useAuth();
@@ -279,6 +282,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#f8f9fa',
+    marginBottom: width < 800 ? 100 : 0,
   },
   header: {
     alignItems: 'center',

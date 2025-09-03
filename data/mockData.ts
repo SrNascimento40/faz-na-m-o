@@ -26,8 +26,8 @@ export const mockPlans: Plan[] = [
 
 export const mockTrainer: Trainer = {
   id: 'trainer1',
-  name: 'Carlos Silva',
-  email: 'carlos@centralfight.com',
+  name: 'Saitama',
+  email: 'saitama@centralfight.com',
   phone: '(11) 99999-9999',
   photo: 'https://via.placeholder.com/150',
   type: 'trainer',
